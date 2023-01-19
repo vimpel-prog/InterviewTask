@@ -12,8 +12,6 @@ public class Main {
                 "Роботы");
         sortingByShelves(books)
                 .forEach(System.out::println);
-
-
     }
 
     public static List<List<String>> sortingByShelves(List<String> books) {
