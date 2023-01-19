@@ -13,7 +13,6 @@ public class Main {
         sortingByShelves(books)
                 .forEach(System.out::println);
     }
-
     public static List<List<String>> sortingByShelves(List<String> books) {
         books = books.stream()
                 .sorted(String::compareTo)
